@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+    color: #3D2643;
+}
+body{
+    height: 100vh;
+    background-image: url(back2.png);
+    /* background-image: url(ground.png); */
+    /* background-image: url(back.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FEF6E9;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        background-image: url(back.png);;
+    }
+}
+
+
+.main{   
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.title{
+    width: 20rem;
+}
+
+li{
+    margin-left: 40px;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
