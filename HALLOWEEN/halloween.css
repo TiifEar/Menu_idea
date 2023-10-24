@@ -1,11 +1,16 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'EB Garamond', serif;
     color: #3D2643;
 }
+
+html{
+    height: 100%;
+}
 body{
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-image: url(back2.png);
     /* background-image: url(ground.png); */
     /* background-image: url(back.png); */
