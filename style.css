@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+
+ul{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+ul li{
+    margin: 5px;
+}
+ul li:hover{
+    filter: grayscale(100%);
+}
+ul img{
+    display: block;
+    border: 1px solid gray;
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+}

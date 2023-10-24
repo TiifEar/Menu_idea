@@ -23,7 +23,7 @@
 
 .front {
     width: 320px;
-    height: 200px;
+    height: 220px;
     border-radius: 15px;
     -webkit-backface-visibility: hidden;
     position: absolute;
@@ -39,6 +39,11 @@
     color: white;
 }
 
+.front h3 span{
+    font-size: 15px;
+    color:bisque ;
+}
+
 .front img {
     display: block;
     margin-left: auto;
@@ -48,7 +53,7 @@
 
 .back {
     width: 320px;
-    height: 200px;
+    height: 220px;
     border-radius: 15px;
     -webkit-backface-visibility: hidden;
     position: absolute;
@@ -75,4 +80,8 @@
     -webkit-transition: 0.6s;
     -webkit-transform-style: preserve-3d;
     position: relative;
+}
+
+.flipper>div{
+    background-color: cadetblue;
 }
