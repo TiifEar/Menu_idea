@@ -328,9 +328,19 @@
         </li>
       </ul>
     </div>
-
-    <script src="script.js"></script>
+    <div class="annotation" id="annotation" onclick="hidd()">
+      <h2>
+        <a href="https://tiifear.github.io/Menu_idea/HALLOWEEN/halloween.html"
+          >Святкове меню</a
+        >
+      </h2>
+      <div class="zoom-in-out-box bord">
+        <img src="hallowen.png" alt="" class="zoom-in-out-box" />
+      </div>
+    </div>
     <script>
+      const back = document.getElementById("annotation");
+
       window.onscroll = function () {
         myFunction();
       };
@@ -344,6 +354,10 @@
         } else {
           header.classList.remove("sticky");
         }
+      }
+      function hidd() {
+        document.body.style.overflowY = "scroll";
+        back.style.display = "none";
       }
     </script>
   </body>
